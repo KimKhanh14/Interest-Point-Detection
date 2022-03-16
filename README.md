@@ -2,9 +2,8 @@
  This project was carried by Group 2 while studying Computer Vision course at VNUHCM-University of Science. This includes 3 interest point detection methods: Harrist, Blob and DOG built using algorithms. The report contains the results of methods and comparisons.
 
 # Contributors
-This project is carried out by Group 2 members, including:
+This project is carried out by:
 - [Kimkhanh14](https://github.com/KimKhanh14)
-- [pnaquoc19](https://github.com/pnaquoc19)
 
 # Install
 Download OpenCV
