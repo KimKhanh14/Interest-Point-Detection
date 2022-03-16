@@ -31,7 +31,7 @@ Project configuration
 - Build project to create exe file
 
 # How to use it
- - Mở Command Prompt hoặc Windows PowerShell và nhập lệnh:
+ - Open Command Prompt or Windows PowerShell and enter command:
   ```bash
   path/to/executable/file/<exeFile>.exe path/to/input/file/<imageFile>.jpg <taskArgument> [<value>]
   ```
