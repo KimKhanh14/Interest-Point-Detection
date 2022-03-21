@@ -143,6 +143,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="19127644_Lab02.cpp" />
+    <ClCompile Include="Convolution.cpp" />
+    <ClCompile Include="InterestPointDetection.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Convolution.h" />
+    <ClInclude Include="InterestPointDetection.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
