@@ -11,8 +11,7 @@ InterestPointDetection::~InterestPointDetection()
 int InterestPointDetection::detectHarris(const Mat& src, Mat& dst, double coef, double th)
 {
 	//Nếu ảnh input rỗng => không làm gì hết
-	if (src.empty())
-		return -1;
+	if (src.empty()) return -1;
 
 	int row = src.rows, col = src.cols;
 
@@ -114,8 +113,7 @@ int InterestPointDetection::detectHarris(const Mat& src, Mat& dst, double coef, 
 int InterestPointDetection::detectBlob(const Mat& src, Mat& dst, double sigma, double coef, double th)
 {
 	//Nếu ảnh input rỗng => không làm gì hết
-	if (src.empty())
-		return -1;
+	if (src.empty()) return -1;
 
 	int row = src.rows, col = src.cols;
 
@@ -201,8 +199,7 @@ int InterestPointDetection::detectBlob(const Mat& src, Mat& dst, double sigma, d
 int InterestPointDetection::detectDOG(const Mat& src, Mat& dst, vector<keypoint>& keypoints, double sigma, double coef, double cth, double eth)
 {
 	//Nếu ảnh input rỗng => không làm gì hết
-	if (src.empty())
-		return -1;
+	if (src.empty()) return -1;
 
 	int row = src.rows, col = src.cols;
 

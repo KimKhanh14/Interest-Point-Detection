@@ -1,20 +1,32 @@
-// 19127644_Lab02.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+#include "InterestPointDetection.h"
 
-int main()
+using namespace std;
+
+int main(int argc, char* argv[])
 {
-    std::cout << "Hello World!\n";
+	string option, inputPath, outputPath;
+	if (argc == 4) {
+		inputPath = argv[1];
+		outputPath = argv[2];
+		double c = stof(argv[3]);
+		double t = stof(argv[4]);
+
+		Mat sourceImg = imread(inputPath);
+		Mat desImg;
+		InterestPointDetection temp;
+
+		int h = temp.detectHarris(sourceImg, desImg, c, t);
+
+	}
+	else if (argc == 5) {
+		option = argv[1];
+		inputPath = argv[3];
+		outputPath = argv[4];
+		float value = stof(argv[2]);
+
+		Mat sourceImg = imread(inputPath);
+		Mat desImg;
+		
+	}
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
