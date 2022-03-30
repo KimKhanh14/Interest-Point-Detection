@@ -15,13 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="19127644_Lab02.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Convolution.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="InterestPointDetection.cpp">
+    <ClCompile Include="Detection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="19127644_Lab02.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,7 +29,7 @@
     <ClInclude Include="Convolution.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="InterestPointDetection.h">
+    <ClInclude Include="Detection.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
